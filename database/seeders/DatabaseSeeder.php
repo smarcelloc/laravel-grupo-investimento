@@ -23,6 +23,15 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         User::factory(20)->create();
+
+        User::firstOrCreate([
+            'name' => 'admin',
+            'email' => 'admin@admin.com',
+            'cpf' => '55955688013',
+            'password' => Hash::make('password'),
+            'permission' => 'admin',
+        ]);
+
         Institution::factory(5)->create();
         Group::factory(10)->create();
 
