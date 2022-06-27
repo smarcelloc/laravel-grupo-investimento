@@ -11,7 +11,16 @@
 
 <body class="sb-nav-fixed">
     @include('layout.main.navbar')
-    @include('layout.main.sidebar')
+
+    <div id="layoutSidenav">
+        @include('layout.main.sidebar')
+        <div id="layoutSidenav_content">
+            <main>
+                @yield('content')
+            </main>
+            @include('layout.main.footer')
+        </div>
+    </div>
 
     <!-- File JS  -->
     <script src="{{ asset(mix('/js/app.js')) }}"></script>

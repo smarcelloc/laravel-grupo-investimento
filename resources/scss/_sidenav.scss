@@ -85,12 +85,10 @@
         color: $sidenav-light-icon-color;
       }
 
-      &:hover {
-        color: $sidenav-light-link-active-color;
-      }
-
+      &:hover,
       &.active {
         color: $sidenav-light-link-active-color;
+        background-color: $sidenav-light-link-active-bg;
 
         .sb-nav-link-icon {
           color: $sidenav-light-link-active-color;
