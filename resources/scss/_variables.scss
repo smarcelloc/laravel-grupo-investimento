@@ -10,13 +10,13 @@ $white: #fff !default;
 $gray-100: #f8fafa !default;
 $gray-200: #e9efee !default;
 $gray-300: #dee6e3 !default;
-$gray-400: #cedad6 !default;
-$gray-500: #adbdb9 !default;
-$gray-600: #6c7d76 !default;
-$gray-700: #495755 !default;
-$gray-800: #34403e !default;
-$gray-900: #212929 !default;
-$black: #0c0e0d !default;
+$gray-400: #ced9da !default;
+$gray-500: #adbbbd !default;
+$gray-600: #6c7c7d !default;
+$gray-700: #495657 !default;
+$gray-800: #343e40 !default;
+$gray-900: #212729 !default;
+$black: #0c0e0e !default;
 // scss-docs-end gray-color-variables
 
 // scss-docs-start color-variables
@@ -55,14 +55,14 @@ $zindex-topnav: 1039 !default;
 // Color variables for the sidenav
 
 // -- Sidenav Light
-$sidenav-light-bg: $gray-100;
+$sidenav-light-bg: $gray-200;
 $sidenav-light-color: $gray-900;
 $sidenav-light-heading-color: $gray-500;
 $sidenav-light-link-color: $sidenav-light-color;
 $sidenav-light-link-active-color: $primary;
 $sidenav-light-link-active-bg: rgba($color: $primary, $alpha: 0.1);
-$sidenav-light-icon-color: $gray-500;
-$sidenav-light-footer-bg: $gray-200;
+$sidenav-light-icon-color: $gray-700;
+$sidenav-light-footer-bg: $gray-300;
 
 // Color variables for the topnav
 $topnav-dark-toggler-color: fade-out($white, 0.5);
